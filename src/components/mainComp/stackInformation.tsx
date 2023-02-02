@@ -14,16 +14,15 @@ import Sass from "../../scss/photo/Sass.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 
-import Modal from "../modalComponent.tsx";
-import { setModalActive } from "../../redux/modalSlice.tsx";
-import { addText } from "../../redux/textSlice/modalText.tsx";
-import { useAppDispatch } from "../../TS/customHooks.tsx";
+import Modal from "../modalComponent";
+import { setModalActive } from "../../redux/modalSlice";
+import { addText, StackEnum } from "../../redux/textSlice/modalText";
+import { useAppDispatch } from "../../TS/customHooks";
 
-interface IStack {
+export interface IStack {
   src: string;
   alt: string;
 }
-
 const stack: IStack[] = [
   { src: HTML, alt: "HTML" },
   { src: CSS, alt: "CSS" },
@@ -62,7 +61,7 @@ const StackInformation: React.FC = () => {
                   alt={stack.alt}
                   onClick={() => {
                     dispatch(setModalActive());
-                    dispatch(addText({ code: stack.alt }));
+                    dispatch(addText({ code: stack.alt as StackEnum }));
                   }}
                 />
               </SwiperSlide>

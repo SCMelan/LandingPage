@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import HH from "../../scss/photo/HH.png";
 import GH from "../../scss/photo/GH.png";
 
-const Header: React.FC = () => {
+export const Header: React.FC = () => {
   return (
     <div className="body_header">
       <div className="form_header">
@@ -19,5 +19,3 @@ const Header: React.FC = () => {
     </div>
   );
 };
-
-export default Header;

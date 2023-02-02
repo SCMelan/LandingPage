@@ -1,9 +1,9 @@
 import React from "react";
 
-import MainInformation from "./mainInformation.tsx";
-import StackInformation from "./stackInformation.tsx";
+import MainInformation from "./mainInformation";
+import StackInformation from "./stackInformation";
 
-const Main: React.FC = () => {
+export const Main: React.FC = () => {
   return (
     <div className="body_main">
       <div className="form_main">
@@ -17,5 +17,3 @@ const Main: React.FC = () => {
     </div>
   );
 };
-
-export default Main;

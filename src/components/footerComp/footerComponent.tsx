@@ -7,7 +7,7 @@ import GMail from "../../scss/photo/GMail.png";
 
 import { Link } from "react-router-dom";
 
-const Footer: React.FC = () => {
+export const Footer: React.FC = () => {
   return (
     <div className="form_footer">
       <Link to="https://t.me/ShadowCherry">
@@ -31,5 +31,3 @@ const Footer: React.FC = () => {
     </div>
   );
 };
-
-export default Footer;

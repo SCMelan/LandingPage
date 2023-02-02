@@ -1,7 +1,7 @@
 import React from "react";
-import Footer from "./components/footerComp/footerComponent.tsx";
-import Header from "./components/headerComp/headerComponent.tsx";
-import Main from "./components/mainComp/mainComponent.tsx";
+import { Footer } from "./components/footerComp/footerComponent";
+import { Header } from "./components/headerComp/headerComponent";
+import { Main } from "./components/mainComp/mainComponent";
 import "./scss/app.scss";
 
 function App() {

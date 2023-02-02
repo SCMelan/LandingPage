@@ -16,8 +16,3 @@ declare module "*.jpeg" {
     export default content;
 }
 
-declare module "*.tsx" {
-    const  content: any;
-    export default content;
-}
- //??

@@ -1,10 +1,14 @@
 import React from "react";
 
-import { setModalHide } from "../redux/modalSlice.tsx";
-import { removeText } from "../redux/textSlice/modalText.tsx";
-import { useAppSelector, useAppDispatch } from "../TS/customHooks.tsx";
+import { setModalHide } from "../redux/modalSlice";
+import { removeText } from "../redux/textSlice/modalText";
+import { useAppSelector, useAppDispatch } from "../TS/customHooks";
+import { IStack } from "./mainComp/stackInformation";
 
-const Modal: React.FC = (stack) => {
+interface ModalProps {
+  stack: IStack[];
+}
+const Modal: React.FC<ModalProps> = ({ stack }) => {
   const active = useAppSelector((state) => state.modal.modalActive);
   const valueText = useAppSelector((state) => state.text.textValue);
 

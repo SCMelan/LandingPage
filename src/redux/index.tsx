@@ -1,7 +1,7 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 
-import modalSlice from "./modalSlice.tsx";
-import modalText from "./textSlice/modalText.tsx";
+import modalSlice from "./modalSlice";
+import modalText from "./textSlice/modalText";
 
 const rootReducer = combineReducers({
   modal: modalSlice,
