@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/LandingPage/static/css/main.81cd99cc.css",
+    "main.js": "/LandingPage/static/js/main.fb28dcac.js",
+    "static/media/SG.png": "/LandingPage/static/media/SG.336e122ce85e9081857b.png",
+    "static/media/Sass.png": "/LandingPage/static/media/Sass.9537ac2f37eee70a0ca5.png",
+    "static/media/myPhoto.jpeg": "/LandingPage/static/media/myPhoto.35f7295dd04a87073218.jpeg",
+    "static/media/JS.png": "/LandingPage/static/media/JS.ac7a57fd9e0eed648be2.png",
+    "static/media/WA.png": "/LandingPage/static/media/WA.63e95474c99e9813c196.png",
+    "static/media/CSS.png": "/LandingPage/static/media/CSS.d02710a870ded9a3099d.png",
+    "static/media/HTML.png": "/LandingPage/static/media/HTML.17d34e7a388b2153cff2.png",
+    "static/media/Figma.png": "/LandingPage/static/media/Figma.3a82106b9f5a6c7efaee.png",
+    "static/media/TS.png": "/LandingPage/static/media/TS.52ea0bc40ba11d507e7d.png",
+    "static/media/HH.png": "/LandingPage/static/media/HH.d0cc35f31f85470613a6.png",
+    "static/media/Vector.png": "/LandingPage/static/media/Vector.7b014e88ea1989f8f0cd.png",
+    "static/media/GH.png": "/LandingPage/static/media/GH.81f6de8e58e3ea8760ee.png",
+    "static/media/GMail.png": "/LandingPage/static/media/GMail.c31d935eb625cc4662ac.png",
+    "static/media/pizza.svg": "/LandingPage/static/media/pizza.56ac87032d8f6fdf863326acd06c0d97.svg",
+    "static/media/React.svg": "/LandingPage/static/media/React.add74742e9e8f8827f7fa666dca760db.svg",
+    "static/media/LP.svg": "/LandingPage/static/media/LP.69ff366f4f784ba6249b201b272fdfae.svg",
+    "static/media/VK.svg": "/LandingPage/static/media/VK.81f98878c5cf1f6415bb2ed5c7253261.svg",
+    "static/media/TG.svg": "/LandingPage/static/media/TG.89d23a21f9cbdc309acc7e6db5d0a5fc.svg",
+    "index.html": "/LandingPage/index.html",
+    "main.81cd99cc.css.map": "/LandingPage/static/css/main.81cd99cc.css.map",
+    "main.fb28dcac.js.map": "/LandingPage/static/js/main.fb28dcac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81cd99cc.css",
+    "static/js/main.fb28dcac.js"
+  ]
+}
